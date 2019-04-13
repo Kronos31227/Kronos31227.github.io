@@ -1,0 +1,25 @@
+body {
+    background-image: url(roboty.png);
+    background-size: 100% 115%;
+    font-family: 'Lato', sans-serif;
+}
+
+#content {
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    line-height: 1  00px;
+    font-size: 72px;
+    margin-left: auto;
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#grafikastrona {
+    text-align: left;
+    margin-top: 500px;
+    margin-bottom: 0px;
+}
+

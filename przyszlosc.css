@@ -1,0 +1,52 @@
+body {
+    background-color: grey;
+     font-family: 'Lato', sans-serif;
+}
+
+#conteiner {
+    background-color: whitesmoke;
+    width: 1000px;
+    height: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    color: black;
+    font-size: 20px;
+    padding-top: 150px;
+    border-radius: 4px;
+    letter-spacing: 2px;
+}
+
+#powrot {
+    color: black;
+    margin: left;
+    width: 110px;
+    height: 30px;
+    background-color: #666666;
+    margin: 15px;
+    text-align: center; 
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    float: left;
+}
+
+#powrot:hover {
+    background-color: #555555;
+}
+
+    a{color: black;}
+    a:link {text-decoration: none}
+    a:visited {text-decoration: none}
+    a:active {text-decoration: none}
+    a:hover {text-decoration: underline}
+	a:hover {text-decoration: none;}
+    a: {display: block}
+
+#logo {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 25px;
+}

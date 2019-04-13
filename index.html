@@ -1,0 +1,130 @@
+<DECTYPE !HTML>
+
+<html lang="pl">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome" />
+    
+    <title>Strona główna</title>
+    
+    <meta name="description" content="Strona poświęcona rowerom typu BMX" />
+    <meta name="keywords" content="gry, rower, ave, bmx," />
+    
+    <link href="gowna.css" rel="stylesheet" type="text/css" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+    <script type="text/javascript">
+      alert("Wyłącz proszę adblocka :)");
+    </script>
+          
+</head>
+<body>
+    
+    <div id="all">
+    
+      <div class="logo"> 
+          
+        <div class="napislogo">
+              <img class="zdjrowerlogo" src="rower.png" style="float: left;" /> 
+            Strona dla zajawki!
+          </div>
+      
+        </div>
+        <div class="nav"> 
+        <ol>
+            <li> <a href="index.html">Strona główna</a></li>    
+            <li> <a href="#">Typy rowerów</a>
+                 <ul> 
+                     <li><a href="bmx.html">BMX</a></li>
+                     <li><a href="dh.html">DH</a></li>
+                     <li><a href="wkrotce.html" title="W krótce">MTB</a></li>
+                </ul>
+            </li>    
+            <li> <a href="przyszlosc.html">Co w przyszłości?</a></li>  
+            <li> <a href="kontakt.html" title="tutaj możesz się ze mną skontaktowaćh">Kontakt</a>
+                 <ul>
+                      <li><a href="https://www.facebook.com/wojtek.rudol?ref=bookmarks">Facebook</a></li>
+                      <li><a href="#" title="W krótce">Poczta</a></li>
+                
+                </ul>
+            </li>    
+              
+        </ol>
+        
+        </div>
+        <div class="content"> </div>
+        
+    
+            <div class="temat"> 
+                
+        
+                <h1>Jakie są typy rowerów i co można o nich powiedzieć </h1>
+                
+                
+                <div class="textconteiner">
+                
+                  Jazda rowerem jest fajnym hobby, możemy się rozruszać, niestety ale też trochę nie bezpieczna, bo i może cię jakieś auto uderzyć albo pociąg, chodź to sprawa poboczna 
+                  Zacznijmy od tego co możesz znaleść na tej stronie, czyli opisy, zakładki informacje co warto
+                    a co nie warto kupić informacje o dobrych markach no i jakie są rodzaje, wszystkie informacje o typach, markach rowerów znajdziesz w zakładce <b> "Typy rowerow" </b> zapraszam też na inne zakładki
+                    <br/> <br/> <br/> <br/>
+                     <div class="textconteinercogdziejest"> 
+               <center> W zakładkach <b>"Typy rowerów"</b> znajdzesz informacje o większości typów rowerów,
+                    jakie polecane marki są z każdego typu i czego lepiej nie kupować 
+                </center>
+                    </div>
+                    
+                  </div>  
+                
+                
+                    
+                    
+                    
+            
+        
+        
+        
+            </div>
+    
+    
+    
+    
+    </div>
+    
+    
+    <script src="jquery-3.3.1.js"> </script>
+    	
+<script>
+
+	$(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+    </body>
+
+
+
+
+
+
+
+</html>

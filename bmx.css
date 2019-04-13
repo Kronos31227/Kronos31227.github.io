@@ -1,0 +1,265 @@
+body {
+   background-image: url("prism.png");
+   font-family: 'Lato', sans-serif;
+   margin: 0 !important;
+   color: white;
+}
+
+#logo {
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#nav {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    border-top: 1px solid  white;
+    border-bottom: 1px solid  white; 
+    height: 40px;
+    font-size: 30px;
+    background-image: url("connectwork.png");
+        
+}
+
+.pod {
+    float: left;
+    
+}
+
+
+ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+    padding-bottom: 5px;    
+    
+}
+
+ol a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    
+}
+
+ol > li 
+{
+    float: left;
+    width: 150px;
+    height: 40px;
+    border-right: 1px dashed white;
+    
+}
+
+ol > li:first-child {
+    border-left: 1px dashed white;
+}
+
+ol > li:hover {
+    background-color: #666666;
+}
+
+#conteiner {
+    width: 1000px;
+    height: 2500px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    border-radius: 14px;
+}
+
+
+#content {
+    width: 1000px;
+    height: 100%;
+    background-color: #666;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 29px 4px rgba(102,102,102,1);
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#rodzajeicoto {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+#dobrefirmy {
+    width: 200px;
+    height: 230px;
+    background-color: greenyellow;
+    padding-top: 20px;
+    text-align: center;
+    color: blue;
+    margin: left;
+    display: inline-block;
+    border-radius: 14px;
+    border-color: greenyellow;
+}
+
+#odobrychizlych {
+    margin: left; 
+    padding-left: 100px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 90px;
+    text-align: center;
+    margin-right: 116px;
+}
+
+#zlemarki {
+    margin: left;
+    text-align: right;
+    width: 200px;
+    height: 230px;
+    background-color: red;
+    text-align: center;
+    padding-top: 20px;
+    color: greenyellow;
+    display: inline-block;
+    margin-right: auto;
+    border-radius: 14px;
+    border-color: red;
+}
+
+
+
+#jakwidac {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+
+#tricki {
+    margin-top: 20px;
+    text-align: center;
+    background-color: lightgray;
+    width: 100%;
+    height: 350px;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.trick{
+    width: 200px;
+    height: 230px;
+    background-color: blue;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 25px;
+    border-radius: 4px;
+    
+}
+
+#videotricki {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#footer {
+    width: 100%;
+    height: 50px;
+    background-color: #999999;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#kraksy {
+    width: 100%;
+    height: 40px;
+    background-color: #666666;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#kraksyvideo {
+    text-align: center;
+}
+
+#jazdawkasku {
+    font-size: 30px;
+    margin-top: 30px;
+    color: gold;
+}
+
+#sklepy {
+    margin-right: auto;
+    float: right;
+    background-image: url("darkness.png");
+    height: 210px;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-top: 7px;
+    text-align: center;
+    
+}
+.sklep {
+    height: 40px;
+    width: 190px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("dark-grey-terrazzo.png");
+    margin-top: 5px; 
+    font-size: 17px;
+    line-height: 40px;
+    vertical-align:middle;
+    color: white;
+    
+}
+
+#alltrick {
+    float: left;
+    background-color: white;
+    margin-top: 35px;
+    width: 230px;
+    color: black;
+    text-align: center;
+    height: 70px;
+    padding-top: 40px;
+    background-image: url(qbkls.png);
+    border: solid;
+    border-radius: 14px;
+    border-color: #999999;
+    border-width: 4px;
+    font-size: 15px;
+}
+
+#alltrick:hover {
+    background-color: aliceblue;
+}
+
+    a{color: black;}
+    a:link {text-decoration: none}
+    a:visited {text-decoration: none}
+    a:active {text-decoration: none}
+    a:hover {text-decoration: underline}
+	a:hover {text-decoration: none;}
+    a: {display: block}

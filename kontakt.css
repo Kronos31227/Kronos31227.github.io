@@ -1,0 +1,153 @@
+body {
+    background-color: 222222;
+    font-family: 'Lato', sans-serif;
+    background-size: cover;
+    margin: 0 !important;
+}
+
+
+.logo {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#powrot {
+    color: black;
+    margin: left;
+    width: 110px;
+    height: 30px;
+    background-color: #666666;
+    margin: 15px;
+    text-align: center; 
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+        
+    
+}
+
+.container {
+    padding-top: 5px;
+    width: 1000px;
+    height: 500px;
+    background-color: #333333;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+#title1 {
+    width: 480px;
+    height: 230px;
+    float: left;
+    background-color: #3b5998;
+    margin: 10px;
+    color: white;    
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#title1:hover {
+    background-color: #2a4887;
+  
+}
+
+
+#title2 {
+     width: 480px;
+    height: 230px;
+    float: left;
+    background-color: #F44336;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+     
+}
+
+#title2:hover {
+    background-color: #e33225;
+
+}
+
+#title3 {
+    width: 480px;
+    height: 230px;
+    float: left;
+    background-color: #ffd600;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#title3:hover {
+    background-color: #eec500;
+}
+
+#title4 {
+    text-align: center;
+    width: 480px;
+    height: 230px;
+    float: left;
+    background-color: greenyellow;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+#title4:hover {
+    background-color: green;
+}
+
+.powrot {
+    text-align: left;
+    color: white;
+    padding-top: 0;
+    font-size: 20px;
+    padding-top: 650px;
+    
+}
+
+h2 {
+    margin-top: 80px;
+}
+
+
+
+#teksthelp {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20upx;
+}
+
+#powrot:hover {
+    background-color: #999999;
+}
+
+
+    a{color: black;}
+    a:link {text-decoration: none}
+    a:visited {text-decoration: none}
+    a:active {text-decoration: none}
+    a:hover {text-decoration: underline}
+	a:hover {text-decoration: none;}
+    a: {display: block}
+
+
+
+
+
+
+
+

@@ -1,0 +1,189 @@
+body
+{
+    background-color: antiquewhite;
+    font-family: 'Lato', sans-serif;
+    margin: 0 !important;
+    
+}
+
+#all
+{
+    width: 100%;
+}
+
+
+
+.logo
+{
+    width: 100%;    
+    padding: 20px 0;
+}
+
+.napislogo
+{
+    width: 480px; 
+    font-size: 48px;
+    color: crimson;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zdjrowerlogo {
+    width: 48px;
+    height: 48px;
+    float: left;
+    padding-right: 10px;
+}
+
+
+.nav {
+    width: 100%;
+    padding: 10px 0;
+    background-color: floralwhite;
+    text-align: center;
+    border-top: 1px solid  white;
+    border-bottom: 1px solid  white; 
+    
+}
+
+
+.content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    letter-spacing: 5px;
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+    
+}
+
+ol a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    
+}
+
+ol > li 
+{
+    float: left;
+    width: 150px;
+    height: 40px;
+    border-right: 1px dashed black;
+    
+}
+
+ol > li:first-child
+{
+    border-left: 1px dashed black;
+}
+
+ol > li:hover
+{
+    background-color: white;
+}
+
+ol > li:hover > a
+{
+    color: lightseagreen;
+}
+
+
+ol > li > ul {    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+}
+
+ol > li:hover > ul {
+    display: block;
+}
+
+ol > li > ul > li {
+    background-color: aquamarine;
+    position: relative;
+    z-index: 100;
+    border-top: 1px dashed black;
+    
+        
+    
+}
+
+
+ol > li > ul > li:hover {
+    background-color: lightblue;
+    
+    
+        
+}
+
+ol > li > ul > li:hover > a {
+    color: black;
+}
+
+.temat {
+    text-align: center;
+}
+
+.textconteiner {
+    width: 1000px;
+    min-height: 1000px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-align: justify;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    letter-spacing: 2px;
+}
+
+.textconteinercogdziejest {
+    width: 1000px;
+    min-height: 1000px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    color: blue;
+    text-align: justify;
+    font-size: 30px;
+
+}
+
+
+.sticky {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
